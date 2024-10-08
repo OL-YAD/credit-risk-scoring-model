@@ -24,21 +24,17 @@ credit-risk-scoring-model/
 │   └── __init__.py
 ├── notebooks/
 │   ├── __init__.py
-|   |──preprocessing.ipynb              # Jupyter notebook for data cleaning and processing 
-|   ├──eda_analysis.ipynb               # Jupyter notebook for customer purchasing behavior analysis 
-|   ├──ml_preprocess.ipynb              # Jupyter notebook for  data preparation for model training 
-|   ├──ml_modelling.ipynb               # Jupyter notebook for Regression model training 
-|   |──dl_modelling.ipynb               # Jupyter notebook for LSTM model training 
+|   ├──eda_analysis.ipynb               # Jupyter notebook for customer transaction data analysis 
+|   ├──feature_engineering.ipynb        # Jupyter notebook for feature engineering and woa analysis 
+|   ├──credit_scoring_model.ipynb       # Jupyter notebook for ml model training 
 │   └── README.md                       # Description of notebooks directory 
 ├── tests/
 │   └── __init__.py
 └── scripts/
     ├── __init__.py
-    ├── preprocessing.py            # script for data processing, cleaning
-    ├── eda_analysis.py             # Script for customer EDA analysis of customer purchasing behavior
-    ├── ml_preprocess.py            # script for data processing for machine learning model
-    ├── ml_modelling.py             # script for regression model training
-    |──  dl_modelling.py            # script for LSTM model training 
+    ├── eda_analysis.py             # script for for customer transaction data analysis 
+    ├── feature_engineering.py      # Script for for feature engineering and woa analysis behavior
+    ├── credit_scoring_model.py            # script for ml model training model
     └── README.md                   # Description of scripts directory
     
 ```
@@ -48,8 +44,8 @@ credit-risk-scoring-model/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/OL-YAD/rossmann-pharmaceuticals-sales-forecast.git
-   cd rossmann-pharmaceuticals-sales-forecast
+   git clonehttps://github.com/OL-YAD/credit-risk-scoring-model.git
+   cd credit-risk-scoring-model
    ```
 
 2. Create a virtual environment (optional but recommended):
